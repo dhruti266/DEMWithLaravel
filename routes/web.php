@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 
 
@@ -59,4 +59,5 @@ Route::get('/', 'HomeController@index')->name('home');
 //Route:get('history/{userId}', function ($user_id) {
 //    return 'History'. $user_id;
 //});
+
 

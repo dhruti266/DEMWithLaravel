@@ -11,10 +11,12 @@
 |
 */
 Auth::routes();
+
+// here '/' points to the index method in the Home comtroller and this route name is 'home'.
 Route::get('/', 'HomeController@index')->name('home');
 
 
-
+Route::get('', 'HomeController@dashboard')->name('dashboard');
 
 
 
